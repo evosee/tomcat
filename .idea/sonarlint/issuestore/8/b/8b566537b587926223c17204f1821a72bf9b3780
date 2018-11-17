@@ -1,0 +1,8 @@
+
+Gsquid:S16591"$Declare "index2" on a separate line.(û½¨ùÿÿÿÿ8ü‹âò,
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(”á®öüÿÿÿÿ8ğ•ßò,
+Ssquid:S1854#"5Remove this useless assignment to local variable "i".(ÖÔÏ×8‡èÙò,
+Fsquid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‡èÙò,
+Isquid:S1481!"&Remove this unused "i" local variable.(¾Øàéüÿÿÿÿ8‡èÙò,
+Ssquid:S1854&"5Remove this useless assignment to local variable "i".(Ó¹½¯8ÔØÛò,
