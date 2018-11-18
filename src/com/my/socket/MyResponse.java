@@ -10,7 +10,10 @@ public class MyResponse {
     public MyResponse(OutputStream outputStream) {
         this.outputStream = outputStream;
     }
-
+    /**
+     * 在ie下可以运行但是在chrome下无法运行，可能是因为这里没有写标准的头信息,这不是一个
+     *     标准的http响应。chrome无法解析。但是ie解析了。
+     */
     public void sendStaticSource() throws Exception {
         byte[] bytes = new byte[BUFFER_SIZE];
         File file = new File(HttpServer.WEB_ROOT,request.getUri());
