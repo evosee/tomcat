@@ -1,4 +1,4 @@
-package com.my.socket;
+package com.my.socket.one;
 
 import java.io.File;
 import java.io.InputStream;
